@@ -1,0 +1,83 @@
+/* slider css */
+/* .height_slider{
+    height: 350 !important;
+} */
+.image_slide{
+    height: 700px !important;
+    width: 100% !important;
+}
+.great{
+    font-size: 51px;
+    font-weight: 600;
+    color: #0000ff91;
+}
+.we{
+    font-size: 25px;
+    font-weight: 300;
+}
+.contact{
+    background-color: #0000ff91 !important;
+    color: white !important;
+}
+.why{
+    font-size: 51px;
+    font-weight: 600;
+    color: #000000b5;
+}
+.our{
+    font-size: 39px;
+    font-weight: 400;
+}
+.we_bel{
+    font-size: 24px;
+    font-weight: 400;
+}
+.card_border{
+    border: 2px solid #0000ff91;
+    border-radius: 7%;
+}
+.glass_effect{
+    backdrop-filter: blur(3px) saturate(108%);
+    -webkit-backdrop-filter: blur(3px) saturate(108%);
+    background-color: rgba(255, 255, 255, 0.41);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.background_image{
+    background-image: url('../../assets/glass.jpg');
+    background-size: "cover";
+    height: 70% !important;
+  background-repeat:no-repeat; 
+}
+.card_heading{
+    font-size: 1.25rem;
+}
+.width{
+    width: 57% !important;
+}
+.custom_margin{
+    margin-top: 5rem !important;
+  }
+  .color_size{
+    font-size: 50px;
+    font-weight: 900;
+    color: #0000ff91;
+  }
+  .building{
+    font-size: larger !important;
+  }
+  .margin_pa{
+    margin-top: 100px !important;
+  }
+/* media quries home page */
+@media only screen and (max-width: 600px) {
+    .great {
+        font-size: 30px;
+        font-weight: 300;
+        color: #0000ff91;
+    }
+    .we{
+        font-size: 20px;
+        font-weight: 100;
+    }
+  }

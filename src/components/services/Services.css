@@ -1,0 +1,17 @@
+.back_color{
+    background-color: #80808029 !important;
+  }
+
+  .color_size{
+    font-size: 50px;
+    font-weight: 900;
+    color: #0000ff91;
+  }
+  .Reliabit{
+    font-size: 23px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.562);
+  }
+  .card_height{
+    height: 390px !important;
+  }

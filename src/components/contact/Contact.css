@@ -1,0 +1,38 @@
+.Head_solution{
+    font-size: 62px !important;
+    font-weight: 800 !important;
+  }
+  .p_welive{
+    font-size: x-large !important;
+    font-weight: lighter !important;
+  }
+  .padd_h1{
+    padding-top: 90px !important;
+  }
+  .talk{
+    font-size: 2.5rem !important;
+    font-weight: 900 !important;
+    font-family: inherit !important;
+}
+.custom_control{
+    padding: 11px !important;
+    border-radius: 0px !important;
+  
+  }
+  .custom_control:focus{
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  .contact_btn{
+    border-radius: 0px !important;
+      padding: 12px !important;
+  }
+  .area_height{
+    height: 368px !important;
+  }
+  .color_size{
+    font-size: 50px;
+    font-weight: 900;
+    color: #0000ff91;
+  }
