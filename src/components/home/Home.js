@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import client from '../../assets/home.png'
 import softwaredev from '../../assets/innovation-team.png'
 import softwaredevelopment from '../../assets/development.png'
@@ -20,7 +21,8 @@ function Home() {
         <div className=' offset-1 col-sm-6  mt-4' data-aos="fade-right" >
           <h1 className='mt-4 great'>Great software is built <br />by great teams</h1>
           <p className='we'>We are a dedicated  and professional<br /> team of web and mobile software  <br />developers</p>
-          <button className='btn btn-lg contact'> Contact us</button>
+          <Link to='/contact'><button className='btn btn-lg contact'> Contact us</button></Link>
+          
         </div>
         <div className='col-sm-5' data-aos="fade-up">
           <img src={client} className='img-fluid' alt='client' />
@@ -29,10 +31,10 @@ function Home() {
       <div>
         <div className='container custom_margin bg-white pb-4'>
           <div className='row'>
-            <div className='col-md-5 offset-1 pt-3 mt-4 pl-4' data-aos="fade-right">
+            <div className='col-md-5 offset-1 pt-3 mt-4 pl-4' data-aos="fade-down-right">
               <h1 className='pt-4 mt-4 pl-4'><span className='color_size '>We help You </span><br /> <span className='text-secondary'>To develop successfull web and <br />mobile applications </span></h1>
             </div>
-            <div className='col-md-6 pt-3' data-aos="fade-right">
+            <div className='col-md-6 pt-3' data-aos="fade-up" data-aos-anchor-placement="bottom-center">
               <p className='pt-4 mt-4 building text-secondary'>Building an incredible product takes more than just the ability to write code. It requires designers, testers, project managers, and product managers to come together and create something that sticks with the users. And we have all of that!</p>
               <p className='building text-secondary'>From helping you build and launch the product to maintaining and growing it, we have the correct skillset and mindset to do it all. Our team enjoys collaborating closely with the clients and loves problem-solving by using strategic and innovative thinking.</p>
               <p className='building text-secondary'>Set up a free consultation call to talk to our Project or Product Managers and get a free quote for your product idea!</p>
@@ -73,44 +75,44 @@ function Home() {
       <div className='container-fluid  py-4'>
         <div className='container glass_effect p-4 card_border'>
           <div className='row'>
-            <div className='col-sm-3 text-center' data-aos="zoom-out" >
+            <div className='col-sm-3 text-center shdow' data-aos="zoom-out" >
               <img src={softwaredevelopment} className='width'alt='development' />
               <h2 className='card_heading'>Software Development</h2>
               <p>Work with our team to develop sophisticated enterprise applications tailor-made for your business needs.</p>
             </div>
-            <div className='col-sm-3 text-center' data-aos="zoom-out" >
+            <div className='col-sm-3 text-center shdow' data-aos="zoom-out" >
               <img src={softwaredev} className='width' alt='software' />
               <h2 className='card_heading'>Innovation Team Partnership</h2>
               <p>Augment your innovation team with seasoned professionals.</p>
             </div>
-            <div className='col-sm-3 text-center pt-4' data-aos="zoom-out" >
+            <div className='col-sm-3 text-center pt-4 shdow' data-aos="zoom-out" >
               <img src={Architecture} className='width' alt='Arch' />
               <h2 className='card_heading mt-4 pt-4'>Architecture Consulting</h2>
               <p>Upgrade your infrastructure with innovative technologies and fine-grained optimizations.</p>
             </div>
-            <div className='col-sm-3 text-center mt-3' data-aos="zoom-out" >
+            <div className='col-sm-3 text-center mt-3 shdow' data-aos="zoom-out" >
               <img src={consulting} className='width' alt='consult' />
               <h2 className='card_heading mt-3 pt-3'>High Performance Computing</h2>
               <p>Let our specialists handle every detail of your HPC cluster management.</p>
             </div>
           </div>
           <div className='row'>
-            <div className='col-sm-3 text-center' data-aos="zoom-out" >
+            <div className='col-sm-3 text-center shdow' data-aos="zoom-out" >
               <img src={monitor} className='width' alt='monitor' />
               <h2 className='card_heading mt-1'>Custom Dashboards & Portals</h2>
               <p>There's no better way to manage your business workflows than a custom-built web portal.</p>
             </div>
-            <div className='col-sm-3 text-center' data-aos="zoom-out"  >
+            <div className='col-sm-3 text-center shdow' data-aos="zoom-out"  >
               <img src={Api} className='width'  alt='Api'/>
               <h2 className='card_heading'>API & Systems Integrations</h2>
               <p>Our experience with thousands of APIs and platforms means your data integration is robust and efficient.</p>
             </div>
-            <div className='col-sm-3 text-center' data-aos="zoom-out"   >
+            <div className='col-sm-3 text-center shdow' data-aos="zoom-out"   >
               <img src={report} className='width' alt='report' />
               <h2 className='card_heading mt-1'>Data Management Apps</h2>
               <p>Custom data management apps allow your business to run smoothly and report on important KPIs.</p>
             </div>
-            <div className='col-sm-3 text-center' data-aos="zoom-out"  >
+            <div className='col-sm-3 text-center shdow' data-aos="zoom-out"  >
               <img src={coding} className='width' alt='coding' />
               <h2 className='card_heading'>Development Partnerships</h2>
               <p>Your new on-shore development partner to efficiently support your day to day needs.</p>

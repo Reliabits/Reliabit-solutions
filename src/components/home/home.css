@@ -69,6 +69,12 @@
   .margin_pa{
     margin-top: 100px !important;
   }
+  .shdow:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 46px -1px rgba(99,0,255,0.72);
+-webkit-box-shadow: 1px 1px 46px -1px rgba(99,0,255,0.72);
+-moz-box-shadow: 1px 1px 46px -1px rgba(99,0,255,0.72);
+  }
 /* media quries home page */
 @media only screen and (max-width: 600px) {
     .great {

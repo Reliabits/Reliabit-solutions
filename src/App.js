@@ -7,22 +7,21 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from './components/contact/Contact';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import Footer from './components/footer/Footer';
 function App() {
   useEffect(() => {
     Aos.init({
-      delay: 400,
-      duration: 800,
     });
   }, [])
   return (
     <div className='container-fluid'>
-    
       <Header />
       <Routes>
-        <Route path="/home" element={ <Home /> } />
+        <Route path="/" element={ <Home /> } />
         <Route path='/services' element={<Services/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
+      <Footer />
     </div>
   );
 }

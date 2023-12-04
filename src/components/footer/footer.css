@@ -1,0 +1,44 @@
+.footer_logo{
+    max-width: 21% !important;
+}
+.margin_top{
+    margin-top: 29px;
+}
+.margin_top_color{
+    margin-left: 16px;
+    margin-top: 29px;
+    font-size: 28px;
+    color: blue;
+}
+.margin_top_color:hover{
+    color: black;
+    cursor: pointer;
+}
+.text-icons{
+    text-align: end;
+}
+@media only screen and (max-width: 1198px) {
+    .margin_top{
+   margin-top: 0px;
+   text-align: center;
+    }
+    .footer_logo{
+        max-width: 21%;
+    }
+  }
+  @media only screen and (max-width: 762px) {
+    .footer_logo{
+        max-width: 50% !important;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .footer_logo{
+        max-width: 21% !important;
+    }
+    .center_logo{
+        text-align: center;
+    }
+    .text-icons{
+        text-align: center !important;
+    }
+  }
